@@ -20,7 +20,7 @@ const VectorContainer = styled.div`
   }
 `
 
-const Bounce = keyframes `
+const Bounce = keyframes`
   from { transform: translateX(-50%) scale(0.5); }
   to { transform: translateX(-50%) scale(1); }
 `
@@ -33,8 +33,8 @@ const Ball = styled.div`
   width:1.5rem;
   height:1.5rem;
   border-radius: 50%;
-  background-color: ${props => props.theme.text}
-  animation: ${Bounce} 0.5s linear infinite alternate
+  background-color: ${props => props.theme.text};
+  animation: ${Bounce} 0.5s linear infinite alternate;
 `
 
 const DrawSvg = () => {

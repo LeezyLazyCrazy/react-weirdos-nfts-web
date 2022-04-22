@@ -89,7 +89,7 @@ const ItemContainer = styled.div`
   border: 3px solid ${props=> props.theme.text};
 `
 
-const Box = styled.p `
+const Box = styled.p`
   height: fit-content;
   background-color:${props => props.theme.carouselColor};
   color:${props => props.theme.text};
@@ -98,15 +98,15 @@ const Box = styled.p `
   border:1px solid ${props => props.theme.text};
 `
 
-const SubTitle = styled.span `
+const SubTitle = styled.span`
   display:block;
-  font-size: ${props => props.theme.fontxl};
+  font-size: ${props => props.theme.fontlg};
   text-transform: capitalize;
   color:${props=> props.theme.text}; 
 `
 const Text = styled.span`
   display:block;
-  font-size: ${props => props.theme.fontxl};
+  font-size: ${props => props.theme.fontmd};
   text-transform: capitalize;
   color:${props => props.theme.text}; 
 

@@ -16,7 +16,7 @@ import ConfettiComponent from '../Confetti';
 const Section = styled.section`
   min-height:100vh;
   width:100vw;
-  background-color: ${props => props.theme.body}
+  background-color: ${props => props.theme.body};
   position: relative;
 `
 
