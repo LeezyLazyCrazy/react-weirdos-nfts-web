@@ -76,6 +76,7 @@ const Items = styled.ul`
     }
   } 
 `
+
 const Item = styled.li`
   width:100%;
   height:100%;
@@ -168,7 +169,7 @@ useLayoutEffect (()=> {
 },[])
 
   return (
-    <Section>
+    <Section id='roadmap'>
       <Title>
         Roadmap
       </Title>
