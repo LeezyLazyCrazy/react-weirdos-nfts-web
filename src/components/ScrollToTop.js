@@ -37,7 +37,7 @@ const ScrollToTop = () => {
   const scrollToTop = (id) => {
     let element = document.getElementById("navigation");
 
-    element.scrollInroView({
+    element.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'nearest',

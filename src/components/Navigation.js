@@ -135,7 +135,7 @@ const Navigation = () => {
   const scrollTo = (id) => {
     let element = document.getElementById(id);
 
-    element.scrollInroView({
+    element.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'nearest',
