@@ -105,6 +105,7 @@ const SubTitle = styled.span`
   text-transform: capitalize;
   color:${props=> props.theme.text}; 
 `
+
 const Text = styled.span`
   display:block;
   font-size: ${props => props.theme.fontmd};
