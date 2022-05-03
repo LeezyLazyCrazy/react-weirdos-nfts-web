@@ -148,8 +148,8 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} Weirdos Club. All rights reserved.
         </span>
         <span>
-          MAde with & #10084; by <a href="http://youtube.com/codebucks" target='_blank'  rel='noopener noreferrer'>
-            CodeBucks
+          MAde with &#10084; by <a href="http://youtube.com/codebucks" target='_blank'  rel='noopener noreferrer'>
+            Leezy
           </a>
         </span>
       </Bottom>

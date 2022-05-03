@@ -46,6 +46,7 @@ const Faq = () => {
   useLayoutEffect(() => {
 
     let element = ref.current;
+    
     ScrollTrigger.create({
       trigger: element,
       start: 'top top',
@@ -58,11 +59,11 @@ const Faq = () => {
     return () => {
       ScrollTrigger.kill();
     }
-  })
+  },[])
 
 
   return (
-    <Section id='faq'>
+    <Section  ref={ref} id='faq'>
       <Title>Faq</Title>
       <Container>
         <Box>

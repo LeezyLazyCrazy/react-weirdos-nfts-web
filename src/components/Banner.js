@@ -1,7 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import Button from './Button'
-
 import img1 from '../assets/Nfts/bighead.svg';
 import img2 from '../assets/Nfts/bighead-1.svg';
 import img3 from '../assets/Nfts/bighead-2.svg';
@@ -106,7 +104,7 @@ const Banner = () => {
       <Title> Join the <br/> weirdos club </Title>
       <BtnContainer>
         <JoinNow>
-          <Button text='join now' link='#'/>
+            Join Now
         </JoinNow>
       </BtnContainer>
     </Section>
