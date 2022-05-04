@@ -31,6 +31,7 @@ const Menu = styled.ul`
   justify-content: space-between;
   align-items:center;
   list-style:none;
+
   @media (max-width: 64em){
     position: fixed;
     top: ${props => props.theme.navHeight};
@@ -46,6 +47,9 @@ const Menu = styled.ul`
     transition: all 0.3s ease;
     flex-direction: column;
     justify-content: center;
+
+    touch-action:none;
+
   }
 `
 const MenuItem = styled.li`
@@ -83,6 +87,7 @@ const HamburgerMenu = styled.span`
   align-items: center;
   cursor: pointer;
   transition: all .3s ease;
+
   @media (max-width: 64em){
     display: flex;
   }

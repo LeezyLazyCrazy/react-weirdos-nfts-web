@@ -53,13 +53,17 @@ const Container = styled.div`
 
   .swiper-slide {
     background-color: ${props => props.theme.carouselColor};
-
     border-radius:20px;
-    
     display:flex;
     justify-content: center;
     align-items: center;
 
+    img{
+      display:block;
+      width:100%;
+      height:auto;
+      object-fit:cover;
+    }
   }
 
   .swiper-button-next {

@@ -54,9 +54,11 @@ const Items = styled.ul`
   justify-content: center;
   align-items: center;
   // background-color: lightblue;
+
   @media(max-width: 48em){
     width: 90%;
   }
+
   &>*:nth-of-type(2n +1){
     justify-content: start;
     @media(max-width: 48em){
@@ -65,6 +67,7 @@ const Items = styled.ul`
     div{
       border-radius: 50px 0 50px 0;
       text-align: right;
+
       @media(max-width: 48em){
         border-radius: 0 50px 0 50px;
         text-align: left;
@@ -95,6 +98,7 @@ const Item = styled.li`
   width: 100%;
   height: 100%;
   display: flex;
+  
   @media(max-width: 48em){
    justify-content: flex-end !important;
   }
